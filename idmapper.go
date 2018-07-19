@@ -41,6 +41,13 @@ func Init(dbConnString, prefix string) (err error) {
 	return
 }
 
+func Close() error {
+	if db != nil {
+		return db.Close()
+	}
+	return nil
+}
+
 func GetIdMapper(mapperName string, createTableIfNotExist bool) *IdMapper {
 	if len(mapperName) == 0 {
 		log.Fatalf("[idmapper] GetIdMapper mapperName is empty")
