@@ -134,8 +134,8 @@ func (mapper *IdMapper) IdFromItem(item string, addIfNotExist bool) uint32 {
 		if idx != INVALID {
 			mapper.s2id[item] = idx
 			for int(idx) >= len(mapper.id2s) {
-				/* Extend the map table by 1000 elements */
-				mapper.id2s = append(mapper.id2s, make([]string, 1000)...)
+				/* Extend the map table by 100 elements */
+				mapper.id2s = append(mapper.id2s, make([]string, 100)...)
 			}
 			mapper.id2s[idx] = item
 		}
