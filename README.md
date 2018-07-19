@@ -1,6 +1,6 @@
-# golang mysql string <=> id mapper
+# golang mysql string <-> id mapper
 
-It depends on [github.com/go-sql-driver/mysql](https://github.com/go-sql-driver/mysql)
+This lib depends on [github.com/go-sql-driver/mysql](https://github.com/go-sql-driver/mysql)
 
 ## Example
 
