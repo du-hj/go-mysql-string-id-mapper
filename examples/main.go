@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/du-hj/go-mysql-string-id-mapper"
+	"github.com/hongjundu/go-mysql-string-id-mapper"
 )
 
 func main() {
