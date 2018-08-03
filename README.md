@@ -8,7 +8,7 @@ This lib depends on [github.com/go-sql-driver/mysql](https://github.com/go-sql-d
 
     import (
         "fmt"
-        "github.com//go-mysql-string-id-mapper"
+        "github.com/hongjundu/go-mysql-string-id-mapper"
     )
 
     func main() {
